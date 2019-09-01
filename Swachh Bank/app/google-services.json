@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1012665990375",
+    "firebase_url": "https://deepblue-cab89.firebaseio.com",
+    "project_id": "deepblue-cab89",
+    "storage_bucket": "deepblue-cab89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012665990375:android:88f50e0e9cf1f7c8",
+        "android_client_info": {
+          "package_name": "com.example.bank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012665990375-31j7i8vakqmls9g4pkc2kg15vvr8d129.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bank",
+            "certificate_hash": "d9dde8fdb6187647530562248c957ac2657c50f8"
+          }
+        },
+        {
+          "client_id": "1012665990375-uofj3tmv4nqk0hkpiid3lf397arcqnal.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwVcRlJSdS1vl6AHnHnrbGC4Z8F6VhdfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012665990375-uofj3tmv4nqk0hkpiid3lf397arcqnal.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/text5"
+        android:text="Example Co-Op Bank  "
+        android:textSize="30dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/text6"
+        android:layout_below="@+id/text5"
+        android:text="Cleaning Details  "
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <LinearLayout
+        android:layout_marginTop="120dp"
+        android:id="@+id/lin1"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:weightSum="2"
+        android:layout_below="@id/text5"
+        android:background="@drawable/bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:paddingTop="15dp"
+            android:text="Air Quality"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            android:textColor="@color/colorPrimaryDark"
+
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/air_quality"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:paddingTop="15dp"
+            android:text="-----------"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/lin1"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+
+        android:id="@+id/txt1"
+        android:text="      * All the units are in ppm"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="start" />
+
+    <LinearLayout
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="60dp"
+        android:weightSum="2"
+        android:id="@+id/lin2"
+        android:layout_below="@id/lin1"
+        android:background="@drawable/bg"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:paddingTop="15dp"
+            android:id="@+id/air1"
+            android:text="Dustbin Quality"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:textColor="@color/colorPrimaryDark"
+
+            android:textAlignment="center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:id="@+id/dustbin"
+            android:textAlignment="center"
+            android:paddingTop="15dp"
+            android:text="-----------"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/lin2"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt2"
+        android:layout_marginTop="15dp"
+        android:text="      * All the units are in cms"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="start" />
+
+
+
+
+
+
+</RelativeLayout>
