@@ -5,8 +5,8 @@
 #define sensor A0;
 #define FIREBASE_HOST "deepblue-cab89.firebaseio.com"
 #define FIREBASE_AUTH "xtZQJiddqcdlM7GHLz39VDxcGFgbHFJryikYZj2h"
-#define WIFI_SSID "Redmi"
-#define WIFI_PASSWORD "12345679"
+#define WIFI_SSID "YOUR_WIFI_NAME"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
 
 WiFiClient client;
 
