@@ -10,6 +10,7 @@ Hardware Required:
 Software Required:
   1. Arduino IDE (https://www.arduino.cc/en/main/software)
   2. Camlytics Tool (https://camlytics.com/download/latest)
+  3. Android Application (https://drive.google.com/open?id=11V3rOSwPE-NNzc5G-6RrlLqxPkGUVo_6)
 
 Steps:
   1. Install Arduino IDE.
