@@ -101,7 +101,7 @@ delay(2000);
     p = append_str(p, "\r\n");
     json_start = p;
     p = append_str(p, "{\"value1\":\"");
-    p = append_str(p, "9172430934");
+    p = append_str(p, "ADD_MOBILE_NO");
     p = append_str(p, "\",\"value2\":\"");
     p = append_str(p, "Dustbin full");
     p = append_str(p, "\",\"value3\":\"");
@@ -148,7 +148,7 @@ if(sensorValue > uname){
     p = append_str(p, "\r\n");
     json_start = p;
     p = append_str(p, "{\"value1\":\"");
-    p = append_str(p, "9172430934");
+    p = append_str(p, "ADD_MOBILE_NO");
     p = append_str(p, "\",\"value2\":\"");
     p = append_str(p, "Air quality is poor");
     p = append_str(p, "\",\"value3\":\"");
