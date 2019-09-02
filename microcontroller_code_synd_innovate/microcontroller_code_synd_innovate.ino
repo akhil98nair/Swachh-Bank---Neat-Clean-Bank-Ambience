@@ -26,8 +26,8 @@ char *append_ul(char *here, unsigned long u) {
 char post_rqst[256]; char *p; char *content_length_here; char *json_start; int compi;
 
 // defines pins numbers
-const int trigPin = 2;  //D4
-const int echoPin = 0;  //D3
+const int trigPin = 4;  //D2
+const int echoPin = 5;  //D1
 
 // defines variablesx
 long duration;
